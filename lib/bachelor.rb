@@ -1,7 +1,7 @@
 require "pry"
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
-    if data[season][contestant][]
+    if data[season][contestant]["status"] == 
 end
 get_first_name_of_season_winner(data, "season 19")
 
